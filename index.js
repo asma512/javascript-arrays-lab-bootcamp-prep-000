@@ -11,19 +11,27 @@ function destructivelyPrependKitten(name){
   return kittens
 
 }
-//removes the last kitten from the kittens array
+//removes the LAST kitten from the kittens array
 function destructivelyRemoveLastKitten(name){
   kittens.pop()
   return kittens
 }
-//removes the First kitten from the kittens array
+//removes the FIRST kitten from the kittens array
 function destructivelyRemoveFirstKitten(name){
   kittens.shift()
   return kittens
 }
+//adds kitten at END
 function appendKitten(name){
   return[...kittens,name]
 }
+//adds kitten at BEG
 function prependKitten(name){
   return[name,...kittens]
+}
+function removeLastKitten(name){
+  return kitten.slice(0, kitten.length-1)
+}
+function removeFirstKitten(name){
+  return array.slice(1)
 }
