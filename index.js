@@ -7,7 +7,7 @@ function destructivelyAppendKitten(name){
 }
 //add a kitten at the BEGN. of the array
 function destructivelyPrependKitten(name){
-  kiitens.unshift(name)
+  kittens.unshift(name)
   return kittens
 
 }
